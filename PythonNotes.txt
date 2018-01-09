@@ -1,0 +1,5 @@
+python -m 
+    - Search sys.path for the named module and execute its contents as the __main__ module
+
+pip freeze > requirements.txt
+    - Since virtual environements are system specific, it is best not to pass around the virtual env, but instead pass around a requirements.txt created using pip freeze

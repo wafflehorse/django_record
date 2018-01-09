@@ -1,0 +1,16 @@
+Steps for starting Django project
+- Install python
+- Install pip
+    - curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+- pip install virtualenv
+- pip install virtualenvwrapper (Nahhhhh...)
+- Create virtualenv
+    - virtualenv venv
+- cd venv
+- activate venv
+    - source venv/Script/activate
+    - deactivate
+- pip install django
+
+
+
