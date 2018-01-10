@@ -3,3 +3,18 @@ python -m
 
 pip freeze > requirements.txt
     - Since virtual environements are system specific, it is best not to pass around the virtual env, but instead pass around a requirements.txt created using pip freeze
+
+python modules
+    - a module is simply defined as a file containing statements and definitions.
+    - when you run a module as a script (python fibo.py <arguments>), it runs the module with __name__ set to "__main__"
+        - Which means, you can place code like such:
+            if __name__ == "__main__":
+                import sys
+                fib(int(sys.argv[1]))
+        - Often used for testing
+
+python package
+    - May contain multiple modules
+    - Identified as a package with the __init__.py file in the package directory
+    - Can define the behavior of "from package_name import *" by defining __all__ in init.py
+        -

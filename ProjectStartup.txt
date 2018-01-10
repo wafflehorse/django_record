@@ -11,6 +11,8 @@ Steps for starting Django project
     - source venv/Script/activate
     - deactivate
 - pip install django
+- django-admin startproject mysite
+
 
 
 
