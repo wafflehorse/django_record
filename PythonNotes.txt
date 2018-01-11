@@ -17,4 +17,6 @@ python package
     - May contain multiple modules
     - Identified as a package with the __init__.py file in the package directory
     - Can define the behavior of "from package_name import *" by defining __all__ in init.py
-        -
+
+running python in git bash
+    - in order to run python in git bash, you must use "winpty python.exe <script> <args>"
